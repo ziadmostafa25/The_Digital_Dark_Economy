@@ -115,7 +115,7 @@ The Opportunity Score and completeness assessment require further analytical des
 1. Install PostgreSQL 18 and the required PostGIS and H3 extensions.
 2. Create the `digital_dark_economy` database.
 3. Apply the schema SQL files in the documented project workflow.
-4. Install the Python dependencies required by the scripts.
+4. Install Python dependencies using: py -m pip install -r requirements.txt.
 5. Run extraction, loading, normalization, and integration scripts in sequence.
 6. Create the analytical views using `scripts/create_analytics_views.sql`.
 
@@ -124,5 +124,6 @@ Use your own PostgreSQL credentials. Never commit passwords, API keys, or `.env`
 ### Repository contents
 
 Raw datasets, local database backups, temporary PostGIS installation files, and machine-specific files are intentionally excluded from Git. They should be managed separately with their source attribution and licenses.
+
 
 
