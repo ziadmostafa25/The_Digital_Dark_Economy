@@ -34,3 +34,6 @@ postgis-bundle-pg18-3.7.0x64/
 Thumbs.db
 
 scripts/patch_roads_buildings.py
+
+# Team delivery files - keep database backups out of Git
+Project_Delivery/
