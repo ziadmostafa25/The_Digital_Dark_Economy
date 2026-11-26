@@ -79,7 +79,7 @@ Required PostgreSQL extensions:
 | `scripts/extract_osm_poi.py` | Extract Cairo pharmacies and supermarkets |
 | `scripts/load_osm_to_postgis.py` | Load raw POIs into PostgreSQL |
 | `scripts/normalize_osm_data.sql` | Normalize categories and link source records |
-| `build_h3_baseline.sql` | Build H3 baseline |
+| `scripts/build_h3_baseline.sql` | Build H3 baseline |
 | `scripts/integrate_worldpop_h3.py` | Integrate WorldPop population |
 | `scripts/integrate_osm_roads_buildings.py` | Extract and integrate roads and buildings |
 | `scripts/create_analytics_views.sql` | Create analytical views |
@@ -124,4 +124,5 @@ Use your own PostgreSQL credentials. Never commit passwords, API keys, or `.env`
 ### Repository contents
 
 Raw datasets, local database backups, temporary PostGIS installation files, and machine-specific files are intentionally excluded from Git. They should be managed separately with their source attribution and licenses.
+
 
