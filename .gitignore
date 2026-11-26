@@ -1,0 +1,36 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local data and generated outputs
+data/raw/
+data/processed/
+logs/*
+!logs/.gitkeep
+
+# PostgreSQL and local backups
+*.sql.backup
+*.dump
+*.bak
+postgresql_bin_backup_*/
+postgis_temp/
+postgis-bundle-pg18-3.7.0x64/
+
+# Archives and temporary files
+*.zip
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+scripts/patch_roads_buildings.py
