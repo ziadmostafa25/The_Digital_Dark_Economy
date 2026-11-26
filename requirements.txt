@@ -1,0 +1,5 @@
+﻿psycopg==3.3.8
+psycopg-binary==3.3.8
+requests==2.34.2
+rasterio==1.5.2
+shapely==2.2.0
